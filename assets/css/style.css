@@ -17,12 +17,55 @@ ul{
 nav a {
   color: #000;
   text-decoration: none;
-}
-/* ids in html werden in css zu einem # */
-#Lieblingslink {
-  color: pink;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: color 0.4s ease;
 }
 
+nav a:hover{
+  color: #66ff99;
+
+}
+/* ids in html werden in css zu einem # */
+
+
 .container {
-  background: blue;
+display: flex;
+justify-content: space-between;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+
+#navigation{
+  display: none;
+}
+
+#navigation.show {
+  display: block;
+}
+
+#burger{
+  border: none;
+  background: transparent;
+  outline: none;
+}
+#hero{
+  background-image: url(../img/intro.jpg);
+}
+@media (min-width: 1024px) {
+  #burger{
+    display: none;
+  }
+  #navigation{
+    display: block;
+  }
+
+  nav li{
+    float: left;
+    margin-left: 30px;
+  }
+  .container{
+    width: 90%;
+    margin: auto;
+  }
 }

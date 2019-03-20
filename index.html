@@ -1,45 +1,60 @@
 <!DOCTYPE html>
 <html lang="de">
- <head>
-   <meta charset="utf-8">
-   <!-- das ist ein kommentar -->
-   <title> Super Rezepte </title>
-   <meta name="description" content="Rigatoni mit Sahnesouce">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link rel="stylesheet" href="assets/css/style.css">
 
- </head>
- <body>
-   <header id="header">
-     <div class="container">
-       <a href="#">
+<head>
+  <meta charset="utf-8">
+  <!-- das ist ein kommentar -->
+  <title> Super Rezepte </title>
+  <meta name="description" content="Rigatoni mit Sahnesouce">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+  <header id="header">
+
+    <div class="container">
+      <a href="#">
          <img src="assets/img/logo.svg" alt="Logo Super Koch" width="50" title="Hier Klicken">
        </a>
+      <button type="button" name="button" id="burger">
+          <img src="assets/img/menu.svg" alt="Burger" height="40">
+        </button>
 
-       <nav>
-         <button type="button" name="button">
-           <img src="assets/img/menu.svg" alt="Burger" height="40">
-         </button>
-         <ul>
-           <li>
-             <a href="#" id="Lieblingslink">Home</a>
-           </li>
-           <li>
-             <a href="#">Rezepte</a>
-           </li>
-           <li>
-             <a href="#">Kategorien</a>
-           </li>
-           <li>
-             <a href="#">Über uns</a>
-           </li>
-         </ul>
-       </nav>
+      <nav id="navigation">
 
-     </div>
-   </header>
+        <ul>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Rezepte</a>
+          </li>
+          <li>
+            <a href="#">Kategorien</a>
+          </li>
+          <li>
+            <a href="#">Über uns</a>
+          </li>
+        </ul>
+      </nav>
 
- </body>
+    </div>
+  </header>
+  <script type="text/javascript" src="assets/js/menu.js">
+  </script>
+</body>
+<main>
+  <section id="hero">
+    <div class="hero-box">
+      <h1>Die besten Rezepte für Webworker</h1>
+      <p>Es gibt mehr als Pizza & Ravioli.</p>
+      <a href="#">Entdecke die Leckereien</a>
+    </div>
 
+
+  </section>
+</main>
 
 </html>
