@@ -51,7 +51,61 @@ padding-right: 1rem;
 }
 #hero{
   background-image: url(../img/intro.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
+
+.hero-box{
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  width: 100%;
+
+
+}
+
+.button{
+  padding: 10px;
+  color: #374A67;
+  background: white;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-shadow: 4px 4px 6px 0px rgba(0,0,0,0.6);
+  border: 1px solid #374A67;
+  transition: 2s all ease;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.button:hover{
+	background: #374a67;
+  color: #fff;
+ }
+
+ .card img{
+   width: 100%;
+ }
+
+ .card a{
+   text-decoration: none;
+   }
+.card {
+  text-align: center;
+}
+.card a{
+  color: black;
+}
+.card p a{
+  color: #828282;
+}
+
 @media (min-width: 1024px) {
   #burger{
     display: none;
