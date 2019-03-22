@@ -98,12 +98,30 @@ padding-right: 1rem;
    }
 .card {
   text-align: center;
+  border-radius: 4px;
+  box-shadow: 4px 4px 6px 0px rgba(0,0,0,0.6);
+  overflow: hidden;
+
+}
+
+
 }
 .card a{
   color: black;
 }
 .card p a{
   color: #828282;
+  padding: 1rem;
+}
+.card .button{
+  color: white;
+  background: #374A67;
+  display:block;
+  margin: 1rem;
+}
+.card .button:hover{
+  color: #374A67;
+  background: #fff;
 }
 
 @media (min-width: 1024px) {
