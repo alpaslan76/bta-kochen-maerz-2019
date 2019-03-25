@@ -34,6 +34,8 @@ display: flex;
 justify-content: space-between;
 padding-left: 1rem;
 padding-right: 1rem;
+flex-wrap: wrap;
+
 }
 
 #navigation{
@@ -101,6 +103,7 @@ padding-right: 1rem;
   border-radius: 4px;
   box-shadow: 4px 4px 6px 0px rgba(0,0,0,0.6);
   overflow: hidden;
+  margin: 10px;
 
 }
 
@@ -123,6 +126,27 @@ padding-right: 1rem;
   color: #374A67;
   background: #fff;
 }
+#rezepte h2{
+  text-align: center;
+}
+
+.newsletter input{
+  display: inline-block;
+  color: black;
+  background: white;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+@media (min-width:768px) and (max-width: 1023px){
+
+
+  .card{
+    flex: 1 1 40%;
+  }
+
+
+}
 
 @media (min-width: 1024px) {
   #burger{
@@ -139,5 +163,16 @@ padding-right: 1rem;
   .container{
     width: 90%;
     margin: auto;
+
   }
+
+  .card{
+    flex: 1 1 30%;
+  }
+}
+.widget{
+  background: #04122b;
+  color: white;
+  text-align: center;
+  padding: 1rem;
 }
